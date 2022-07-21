@@ -1,0 +1,185 @@
+.header{
+  margin: 20px;
+}
+
+.header--icon{
+  color: var(--brand-color);
+  font-size: 3rem;
+}
+
+.header--icon__white{
+  color: white;
+  font-size: 20rem;
+}
+
+.main--titles{
+  margin: 20px 0;
+  font-weight: 700;
+  width: 80%;
+  max-width: 300px;
+}
+
+h1.titles--title{
+  margin-top: 35px;
+  text-align: center;
+  font-size: 4.4rem;
+  margin-left: 8px;
+  word-spacing: 15px;
+  color: var(--brand-color); 
+  white-space: inherit;
+}
+h2.titles--title{
+  margin-top: -15px;
+  align-items: flex-start;
+  font-size: 3.4rem;
+  word-spacing: 4px;
+  white-space: inherit;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  color: var(--brand-color);
+}
+h3{
+  margin-top: 25px;
+  align-items: center;
+  font-size: 1.4rem;
+  word-spacing: 2px;
+  white-space: inherit;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  color: var(--brand-color);
+}
+
+.main--hero{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main--buttons{
+  width: 80%;
+  min-width: 300px;
+}
+
+.main--button{
+  padding: 10px;
+  border: 0;
+  border-radius: 15px;
+  font-size: 1.8rem;
+  margin: 10px 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.main--button__white{
+  border: 1px solid var(--gray-color);
+  background: white;
+}
+
+.main--button__blue{
+  background: var(--blue-color);
+  color: white;
+}
+
+.main--button__black{
+  color: var(--black-color)
+}
+
+.main--division{
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.6rem;
+}
+
+.main--division div{
+  width: 45%;
+  border-top: 1px solid var(--gray-color);
+}
+
+.main--text{
+  font-size: 1rem;
+  margin: 5px 0 20px;
+  color: var(--brand-color);
+}
+
+.text--link{
+  color: var(--blue-color);
+}
+
+.main--background{
+  width: 100%;
+  height: 10vh;
+  background: url("https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  width: 100%;
+  padding: 20px;
+  font-size: 1.3rem;
+}
+
+.footer--list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer--list li{
+  margin: 5px 10px;
+  align-items: center;
+}
+
+.footer--list li a{
+  color: #536471;
+}
+
+@media screen and (min-width: 1024px) {
+  .helper{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+    height: 90vh;
+  }
+
+  .main{
+    display: flex;
+    align-items: center;
+  }
+
+  .main--background, .helper--content{
+    width: 50%;
+    height: 100%;
+  }
+
+  .main--button{
+    display: block;
+    width: 300px;
+    margin: 10px 0;
+  }
+
+  h1.titles--title{
+    font-size: 5rem;
+  }
+
+  .main--division{
+    max-width: 300px;
+    margin: 0;
+  }
+
+  .main--text{
+    width: 300px;
+  }
+
+  .footer{
+    height: 10vh;
+  }
+
+}
